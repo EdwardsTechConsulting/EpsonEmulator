@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>EpsonEmulator</AssemblyName>
+    <RootNamespace>EpsonEmulator.App</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EpsonEmulator.Core\EpsonEmulator.Core.csproj" />
+  </ItemGroup>
+</Project>
